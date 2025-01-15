@@ -1,0 +1,20 @@
+public static void main(String[] args) {
+		StaticVariables sv= new StaticVariables();
+		sv.faruq();
+		sv.fabiha();
+		sv.faiza();
+	}
+	
+	public =access modifier-- anyone can access it
+	static ==access specifies--ready to work and easy to access
+	void == no return type-- redymade method
+	main== is the unique name for the method
+	     only one methond is allow in one class
+	   
+	 StaticVariables sv= new StaticVariables();= class refferntial variable 
+	 
+	 Java execution starts from main method
+	 Java execution works top to bottom and left to right.
+	 
+	 main method is normally used for to call the other method
+	 not supposed to write arguments/logics 

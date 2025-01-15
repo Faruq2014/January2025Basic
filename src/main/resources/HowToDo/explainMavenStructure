@@ -1,0 +1,24 @@
+project=January2025Basic
+
+src/main/java== this source code area
+    developers code/application business logic 
+    this code goes to production
+    dataType= package name
+    NumericData== class name--class only be created inside the package
+    src/main/resources== configurational package
+      folder and file should be there
+      normally documentation like user manual
+      all the properties of the app should be there
+      
+     
+     
+      src/test/java== this testing code area-->unit test, ui test, api test
+    developers code/testing logic 
+    this code goes not go to production
+    test= package name
+    HelloJava== class name--class only be created inside the package
+    src/test/resources== configurational package
+      folder and file should be there
+      normally documentation like user manual/test configuration
+      all the properties of the app should be there
+      

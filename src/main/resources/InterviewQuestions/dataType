@@ -1,0 +1,18 @@
+how many types of data==two types
+    primitive=Numeric
+    refferencial/String
+    
+    Numeric== 
+       full number=1,300==byte(8 bits), short(16 bits), int(32 bits), long(64 bits)
+       decimal= 10.01, 400.003== float(32 bits) double(64 bits),
+       
+       binary systems==
+       
+       0,1,2,3,4,5,6,7,8,9
+         10,11,12,13,14,15,16,17,18,19
+            20,21,22
+            
+            10
+            01
+            
+                refferencial/String== unlimited ="";
