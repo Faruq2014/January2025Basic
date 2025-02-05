@@ -12,7 +12,7 @@ public class LocalVariable {
 	public void bankAccount() {
 		// must declare data type 
 		// must have variable name= camel casing
-		// local variable must declare value
+		// local variable must declare value-- parameter variable is exception
 		// only final access modifier is allow
 		 final double checkingAc = 4000.99;
 		// double is the data type
