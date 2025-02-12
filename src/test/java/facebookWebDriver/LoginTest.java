@@ -1,5 +1,7 @@
 package facebookWebDriver;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,6 +29,11 @@ public class LoginTest {
     System.out.println("open app");
     driver= new ChromeDriver();  // intalization of instance variable
     driver.get("https://www.facebook.com/");
+    driver.manage().window().maximize();
+	//driver.manage().window().minimize();
+	//driver.manage().window().fullscreen();
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
     
 	}
     @Test(priority=0)
