@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseTest {
 
-	WebDriver driver;
+	public WebDriver driver;
 
 	public void openApplication() {
 		System.out.println("open app");
