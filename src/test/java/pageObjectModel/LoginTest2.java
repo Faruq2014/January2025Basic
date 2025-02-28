@@ -6,18 +6,18 @@ import org.testng.annotations.Test;
 
 import seleniumInheritance.BaseTest;
 
-public class LoginTest extends BaseTest{
+public class LoginTest2 extends BaseTest{
 	@BeforeMethod
 	public void openFacebook() {
 		openApplication();
 	}
 	
 	@Test
-	public void validLoginTest() {
+	private void invalidLoginTest() {
 		System.out.println("login test starts");
 		LoginPage lp = new LoginPage(driver);
 		lp.userName("kl@bmail.com");
-		lp.password("ffjj");
+		lp.password("ffjj123");
 		lp.clickLoginButton();
 		
 	}
@@ -26,7 +26,7 @@ public class LoginTest extends BaseTest{
 	
 	@AfterMethod
 	public void closeFacebook() {
-		//closeApplication();
+		closeApplication();
 	}
 
 }
