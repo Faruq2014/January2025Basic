@@ -15,8 +15,7 @@ public class FindByLoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(id = "email")
-	public WebElement uName;
+	@FindBy(id = "email") public WebElement uName;
 
 	public String userName(String enterUserName) {
 		uName.sendKeys(enterUserName);
