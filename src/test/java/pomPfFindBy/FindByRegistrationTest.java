@@ -13,9 +13,13 @@ public class FindByRegistrationTest extends BaseTest {
 
 	@Test
 	public void registrationTest() {
-		FindByRegistrationPage rp= new FindByRegistrationPage(driver);
+		FindByRegistrationPage rp= new FindByRegistrationPage(driver);// nested driver
 		rp.clickOnRegistrationLink();
 		rp.firstName("Nilima123");
+		rp.lastName("Khan");
+		rp.monthsDropDown(1);
+		rp.daysDropDown("7");
+		rp.yearDropDown("2000");
 
 	}
 

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class FindByRegistrationPage {
 public WebDriver driver;
@@ -38,6 +39,51 @@ public String firstName(String enterFirstname) {
 	fname.sendKeys(enterFirstname);
 	return enterFirstname;
 }
+
+@FindBy(name="lastname") private WebElement lName;
+
+public String lastName(String enterLastName) {
+	lName.sendKeys(enterLastName);
+	return enterLastName;
+}
+
+@FindBy(id="month") private WebElement dropMonth;
+public void monthsDropDown(int enterMonth) {
+	Select select = new Select(dropMonth); // nested webElement
+	select.selectByIndex(enterMonth);
+}
+
+@FindBy(id="day") private WebElement dropDay;
+public void daysDropDown(String enterDay) {
+	Select daySelect= new Select(dropDay);
+	daySelect.selectByValue(enterDay);
+	
+}
+
+@FindBy(id="year") private WebElement dropYear;
+
+public void yearDropDown(String enterYear) {
+	Select yearSelect= new Select(dropYear);
+	yearSelect.selectByVisibleText(enterYear);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="locators.XpathXes"/>
+      <class name="seleniumInheritance.LoginWithInheritance_Test"/>
+      <class name="pomPfFindBy.FindByRegistrationTest"/>
+      <class name="locators.DynamicXpath"/>
+      <class name="pomPfFindBy.FindByLoginTest"/>
+      <class name="pageObjectModel.LoginTest3"/>
+      <class name="locators.Xpath"/>
+      <class name="pageObjectModel.LoginTest2"/>
+      <class name="facebookWebDriver.LoginTest"/>
+      <class name="locators.DirectLocators"/>
+      <class name="locators.XpathIndex"/>
+      <class name="pageObjectModel.LoginTest"/>
+      <class name="facebookWebDriver.LoginTest_One"/>
+      <class name="pomWithPageFactory.PomLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
